@@ -22,7 +22,7 @@ class CBViewController: UIViewController {
     fileprivate var currentImageIndex = 0
     
     ///
-    fileprivate lazy var images = ["Image1", "Image2", "Image3"]
+    fileprivate lazy var images = ["Image1", "Image2", "Image3", "Image5", "Image5"]
 
     
     // MARK: - UIViewController Methods -
