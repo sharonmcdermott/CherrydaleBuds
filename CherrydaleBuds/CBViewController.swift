@@ -23,6 +23,7 @@ class CBViewController: UIViewController {
     
     ///
     fileprivate lazy var images = ["Image1", "Image2", "Image3"]
+
     
     // MARK: - UIViewController Methods -
 
