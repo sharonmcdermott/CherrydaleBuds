@@ -309,6 +309,7 @@
 				80B8E5701F1A8479004717A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

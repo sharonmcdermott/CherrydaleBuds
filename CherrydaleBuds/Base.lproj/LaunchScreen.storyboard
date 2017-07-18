@@ -1,7 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +20,47 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image1" translatesAutoresizingMaskIntoConstraints="NO" id="Lio-PV-4It">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CdC-bF-yrV">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shake to see new buds." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUR-9i-Sca">
+                                        <rect key="frame" x="101.5" y="323.5" width="172" height="20"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.75286279965753422" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="MUR-9i-Sca" firstAttribute="centerY" secondItem="CdC-bF-yrV" secondAttribute="centerY" id="dVb-QX-8zZ"/>
+                                    <constraint firstItem="MUR-9i-Sca" firstAttribute="centerX" secondItem="CdC-bF-yrV" secondAttribute="centerX" id="zcc-Mo-2xA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="CdC-bF-yrV" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="CAy-k6-Gm1"/>
+                            <constraint firstItem="Lio-PV-4It" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="UYF-yf-RBj"/>
+                            <constraint firstAttribute="trailing" secondItem="Lio-PV-4It" secondAttribute="trailing" id="VSZ-4Z-Ds8"/>
+                            <constraint firstItem="CdC-bF-yrV" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="evh-QI-EdP"/>
+                            <constraint firstItem="Lio-PV-4It" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="hf4-qQ-UgK"/>
+                            <constraint firstAttribute="trailing" secondItem="CdC-bF-yrV" secondAttribute="trailing" id="qja-yk-zqJ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Lio-PV-4It" secondAttribute="bottom" id="wnl-Fd-bBK"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="CdC-bF-yrV" secondAttribute="bottom" id="z97-LC-scJ"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image1" width="3024" height="4032"/>
+    </resources>
 </document>
