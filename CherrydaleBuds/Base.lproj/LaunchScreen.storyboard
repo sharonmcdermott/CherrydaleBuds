@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,27 +19,32 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image1" translatesAutoresizingMaskIntoConstraints="NO" id="Lio-PV-4It">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CdC-bF-yrV">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shake to see new buds." lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUR-9i-Sca">
-                                        <rect key="frame" x="101.5" y="323.5" width="172" height="20"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                    <label userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(( Shake It ))" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="54" translatesAutoresizingMaskIntoConstraints="NO" id="MUR-9i-Sca">
+                                        <rect key="frame" x="15" y="324.33333333333331" width="384" height="88.333333333333371"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="MUR-9i-Sca" secondAttribute="height" multiplier="313:72" id="BkA-uv-Nbl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="54"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.75286279965753422" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="MUR-9i-Sca" firstAttribute="centerY" secondItem="CdC-bF-yrV" secondAttribute="centerY" id="dVb-QX-8zZ"/>
-                                    <constraint firstItem="MUR-9i-Sca" firstAttribute="centerX" secondItem="CdC-bF-yrV" secondAttribute="centerX" id="zcc-Mo-2xA"/>
+                                    <constraint firstItem="MUR-9i-Sca" firstAttribute="leading" secondItem="CdC-bF-yrV" secondAttribute="leading" constant="15" id="HSq-dh-cd3"/>
+                                    <constraint firstItem="MUR-9i-Sca" firstAttribute="centerY" secondItem="CdC-bF-yrV" secondAttribute="centerY" id="dld-h8-dvV"/>
+                                    <constraint firstAttribute="trailing" secondItem="MUR-9i-Sca" secondAttribute="trailing" constant="15" id="sXe-we-tBo"/>
                                 </constraints>
                             </view>
                         </subviews>

@@ -47,6 +47,10 @@ class CBViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
+
     // MARK: - ViewController Methods -
     
     /// This function performs the iteration through the index of images in the images array.
