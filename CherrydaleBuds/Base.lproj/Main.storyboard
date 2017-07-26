@@ -97,9 +97,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="ℹ️"/>
                                 <connections>
-                                    <segue destination="GPw-Eb-34V" kind="popoverPresentation" identifier="flowerInfo" popoverAnchorView="YWL-JA-1C1" id="Pn3-FO-WWg">
+                                    <segue destination="GPw-Eb-34V" kind="popoverPresentation" identifier="goToFlowerInfo" popoverAnchorView="YWL-JA-1C1" id="Pn3-FO-WWg">
                                         <popoverArrowDirection key="popoverArrowDirection" right="YES"/>
                                     </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RqR-FI-qCF">
+                                <rect key="frame" x="17" y="21" width="44" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Hamburger"/>
+                                <connections>
+                                    <segue destination="SMI-zX-LgX" kind="show" identifier="goToChecklist" animates="NO" id="yRE-1E-MFx"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -149,10 +157,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="If1-lP-wx7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="933.60000000000002" y="122.78860569715144"/>
+            <point key="canvasLocation" x="-404" y="883"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Hamburger" width="44" height="44"/>
         <image name="Image1" width="3024" height="4032"/>
     </resources>
 </document>

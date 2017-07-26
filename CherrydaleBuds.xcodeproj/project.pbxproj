@@ -25,7 +25,7 @@
 		80B8E5641F1A8479004717A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80B8E5661F1A8479004717A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80B8E5691F1A8479004717A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		80B8E56B1F1A8479004717A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80B8E56B1F1A8479004717A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = CherrydaleBuds/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +44,7 @@
 			children = (
 				80B8E55E1F1A8479004717A1 /* CherrydaleBuds */,
 				80B8E55D1F1A8479004717A1 /* Products */,
+				80B8E56B1F1A8479004717A1 /* Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,7 +66,6 @@
 				80B8E5631F1A8479004717A1 /* Main.storyboard */,
 				80B8E5661F1A8479004717A1 /* Assets.xcassets */,
 				80B8E5681F1A8479004717A1 /* LaunchScreen.storyboard */,
-				80B8E56B1F1A8479004717A1 /* Info.plist */,
 			);
 			path = CherrydaleBuds;
 			sourceTree = "<group>";
