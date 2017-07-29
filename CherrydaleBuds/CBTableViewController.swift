@@ -15,7 +15,6 @@ class CBTableViewController: UIViewController, UITableViewDataSource, UITableVie
  
  
 
-    fileprivate lazy var flowerImages = ["Image1", "Image2", "Image3", "Image4", "Image5", "Image6", "Image7", "Image8", "Image9", "Image10", "Image11", "Image12", "Image13", "Image14", "Image15", "Image16", "Image17", "Image18", "Image19", "Image20", "Image21", "Image22", "Image23", "Image24", "Image25", "Image26", "Image27", "Image28", "Image29", "Image30", "Image31", "Image32", "Image33", "Image34", "Image35", "Image36", "Image37", "Image38", "Image39", "Image40"]
 
 
     var flowerInfo: [String: String, String: String, String: String, String: Bool] = [
