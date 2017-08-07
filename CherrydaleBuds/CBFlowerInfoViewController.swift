@@ -9,6 +9,12 @@
 import UIKit
 
 class CBFlowerInfoViewController: UIViewController {
+    
+    var cell : CBTableViewCell? {
+        didSet {
+            
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()

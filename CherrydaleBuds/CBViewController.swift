@@ -11,6 +11,16 @@ import UIKit
 /// Main view controller with image view.
 class CBViewController: UIViewController {
     
+    var cell: CBTableViewCell? {
+        didSet {
+            // Update labels on this page to match the contents of this cell object
+            // i.e.
+            // imageViewFlower.image = cell.mainImage
+            // labelTitleFlower.text = cell.title
+            // labelSubtitleFlower.text = cell.subtitle
+        }
+    }
+    
     // MARK: - IBOutlet Variables -
     
     ///

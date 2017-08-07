@@ -9,10 +9,31 @@
 import UIKit
 
 class CBTableViewCell: UITableViewCell {
-    @IBOutlet weak var flowerImage: UIImageView!
-    @IBOutlet weak var nameOfFlower: UILabel!
-    @IBOutlet weak var typeOfFlower: UILabel!
-    @IBOutlet weak var checkMark: UIButton!
+    
+    @IBOutlet fileprivate weak var mainImageView: UIImageView?
+    @IBOutlet fileprivate weak var titleLabel: UILabel?
+    // @IBOutlet fileprivate weak var subtitleLabel: UILabel?
+    // @IBOutlet fileprivate weak var checkMark: UIButton?
+    
+    var mainImage: UIImage? {
+        didSet {
+            //
+            // guard let mainImageView = mainImageView else { return }
+            // -- or --
+            // if let mainImageView = mainImageView {
+            //    mainImageView.image = mainImage
+            // }
+            // -- or --
+            mainImageView?.image = mainImage
+        }
+    }
+    
+    var title: String? = "" {
+        didSet { titleLabel?.text = title }
+    }
+    
+    var subtitle: String?
+    var checked: Bool? = false
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -21,8 +42,6 @@ class CBTableViewCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
 
 }
