@@ -15,8 +15,11 @@ class CBFlowerInfoViewController: UIViewController {
     
     var cell : CBTableViewCell? {
         didSet {
-            
+            //cbCell.mainImage
+            //cbCell.title
+            //cbCell.subtitle
         }
+        
     }
 
     @IBOutlet weak var closeButton: UIButton!
