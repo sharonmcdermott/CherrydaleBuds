@@ -8,6 +8,9 @@
 
 import UIKit
 
+
+
+
 class CBFlowerInfoViewController: UIViewController {
     
     var cell : CBTableViewCell? {
@@ -16,6 +19,9 @@ class CBFlowerInfoViewController: UIViewController {
         }
     }
 
+    @IBOutlet weak var closeButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
