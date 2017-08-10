@@ -12,6 +12,8 @@ class CBTableViewCell: UITableViewCell {
     
     @IBOutlet fileprivate weak var mainImageView: UIImageView?
     @IBOutlet fileprivate weak var titleLabel: UILabel?
+    @IBOutlet fileprivate weak var subtitleLabel: UILabel!
+    
     // @IBOutlet fileprivate weak var subtitleLabel: UILabel?
     // @IBOutlet fileprivate weak var checkMark: UIButton?
     
@@ -29,11 +31,18 @@ class CBTableViewCell: UITableViewCell {
     }
     
     var title: String? = "" {
-        didSet { titleLabel?.text = title }
+        didSet {
+            titleLabel?.text = title
+        }
     }
     
-    var subtitle: String?
+    var subtitle: String? = "" {
+        didSet {
+            subtitleLabel?.text = subtitle
+        }
+    }
     var checked: Bool? = false
+
 
     override func awakeFromNib() {
         super.awakeFromNib()

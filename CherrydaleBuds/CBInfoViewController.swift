@@ -1,5 +1,5 @@
 //
-//  CBFlowerInfoViewController.swift
+//  CBInfoViewController.swift
 //  CherrydaleBuds
 //
 //  Created by sharon mcdermott on 7/25/17.
@@ -11,7 +11,7 @@ import UIKit
 
 
 
-class CBFlowerInfoViewController: UIViewController {
+class CBInfoViewController: UIViewController {
     
     var cell : CBTableViewCell? {
         didSet {
@@ -21,11 +21,23 @@ class CBFlowerInfoViewController: UIViewController {
         }
         
     }
+    
+    
+    
+    @IBOutlet weak var infoButton: UIButton!
 
     @IBOutlet weak var closeButton: UIButton!
     
+    @IBOutlet weak var titleLabel: UILabel!
+    
+    @IBOutlet weak var subtitleLabel: UILabel!
+
+    
     
     override func viewDidLoad() {
+        
+        
+        
         super.viewDidLoad()
         
 

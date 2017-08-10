@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8011FE111F2B04260018E807 /* CBWelcomePageViewCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8011FE101F2B04260018E807 /* CBWelcomePageViewCellViewController.swift */; };
 		8051AEBD1F27F7280042D5FD /* CBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8051AEBC1F27F7280042D5FD /* CBTableViewController.swift */; };
-		8051AEBF1F2809E50042D5FD /* CBFlowerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8051AEBE1F2809E50042D5FD /* CBFlowerInfoViewController.swift */; };
+		8051AEBF1F2809E50042D5FD /* CBInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8051AEBE1F2809E50042D5FD /* CBInfoViewController.swift */; };
 		808456D11F2A5AA500B4FCE3 /* CBTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808456D01F2A5AA500B4FCE3 /* CBTableViewCell.swift */; };
 		80B8E5601F1A8479004717A1 /* CBAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B8E55F1F1A8479004717A1 /* CBAppDelegate.swift */; };
 		80B8E5621F1A8479004717A1 /* CBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B8E5611F1A8479004717A1 /* CBViewController.swift */; };
@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		8011FE101F2B04260018E807 /* CBWelcomePageViewCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBWelcomePageViewCellViewController.swift; sourceTree = "<group>"; };
 		8051AEBC1F27F7280042D5FD /* CBTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBTableViewController.swift; sourceTree = "<group>"; };
-		8051AEBE1F2809E50042D5FD /* CBFlowerInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBFlowerInfoViewController.swift; sourceTree = "<group>"; };
+		8051AEBE1F2809E50042D5FD /* CBInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBInfoViewController.swift; sourceTree = "<group>"; };
 		808456D01F2A5AA500B4FCE3 /* CBTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBTableViewCell.swift; sourceTree = "<group>"; };
 		80B8E55C1F1A8479004717A1 /* CherrydaleBuds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CherrydaleBuds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B8E55F1F1A8479004717A1 /* CBAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBAppDelegate.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 			children = (
 				80B8E55F1F1A8479004717A1 /* CBAppDelegate.swift */,
 				8011FE101F2B04260018E807 /* CBWelcomePageViewCellViewController.swift */,
-				8051AEBE1F2809E50042D5FD /* CBFlowerInfoViewController.swift */,
+				8051AEBE1F2809E50042D5FD /* CBInfoViewController.swift */,
 				80B8E5611F1A8479004717A1 /* CBViewController.swift */,
 				808456D01F2A5AA500B4FCE3 /* CBTableViewCell.swift */,
 				8051AEBC1F27F7280042D5FD /* CBTableViewController.swift */,
@@ -151,7 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				808456D11F2A5AA500B4FCE3 /* CBTableViewCell.swift in Sources */,
-				8051AEBF1F2809E50042D5FD /* CBFlowerInfoViewController.swift in Sources */,
+				8051AEBF1F2809E50042D5FD /* CBInfoViewController.swift in Sources */,
 				8011FE111F2B04260018E807 /* CBWelcomePageViewCellViewController.swift in Sources */,
 				80B8E5621F1A8479004717A1 /* CBViewController.swift in Sources */,
 				8051AEBD1F27F7280042D5FD /* CBTableViewController.swift in Sources */,
