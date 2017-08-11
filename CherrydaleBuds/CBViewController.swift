@@ -44,7 +44,7 @@ class CBViewController: UIViewController {
 
     
     
- // removing the shake gesture function that iterates through the
+ // commenting out the shake gesture function that iterates through the images.
     
     // MARK: - UIViewController Methods -
 

@@ -66,12 +66,12 @@
 				80B8E55F1F1A8479004717A1 /* CBAppDelegate.swift */,
 				8011FE101F2B04260018E807 /* CBWelcomePageViewCellViewController.swift */,
 				8051AEBE1F2809E50042D5FD /* CBInfoViewController.swift */,
-				80B8E5611F1A8479004717A1 /* CBViewController.swift */,
 				808456D01F2A5AA500B4FCE3 /* CBTableViewCell.swift */,
 				8051AEBC1F27F7280042D5FD /* CBTableViewController.swift */,
 				80B8E5631F1A8479004717A1 /* Main.storyboard */,
 				80B8E5661F1A8479004717A1 /* Assets.xcassets */,
 				80B8E5681F1A8479004717A1 /* LaunchScreen.storyboard */,
+				80B8E5611F1A8479004717A1 /* CBViewController.swift */,
 			);
 			path = CherrydaleBuds;
 			sourceTree = "<group>";

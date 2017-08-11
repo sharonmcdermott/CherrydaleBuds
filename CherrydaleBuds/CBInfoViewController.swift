@@ -9,8 +9,6 @@
 import UIKit
 
 
-
-
 class CBInfoViewController: UIViewController {
     
     var cell : CBTableViewCell? {
@@ -21,7 +19,6 @@ class CBInfoViewController: UIViewController {
         }
         
     }
-    
     
     
     @IBOutlet weak var infoButton: UIButton!

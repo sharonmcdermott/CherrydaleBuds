@@ -9,12 +9,26 @@
 import UIKit
 
 class CBWelcomePageViewCellViewController: UIViewController {
-
+  
+    
     @IBAction func goToTableView(_ sender: UIButton) {
     }
 
+   /*  Trying to get the nav bar to not show in this view.
+    
+    func setNavigationBarHidden(_ hidden: true, animated: true)
+    
+    override func viewWillAppear(_ animated: Bool) {
+        setNavigationBarHidden(_ hidden: true, animated: true)
+
+    }
+
+ */
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+
 
         // Do any additional setup after loading the view.
     }
