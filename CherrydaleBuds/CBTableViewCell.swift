@@ -14,7 +14,7 @@ class CBTableViewCell: UITableViewCell {
     @IBOutlet fileprivate weak var titleLabel: UILabel?
     @IBOutlet fileprivate weak var subtitleLabel: UILabel!
     
-    // @IBOutlet fileprivate weak var subtitleLabel: UILabel?
+
     // @IBOutlet fileprivate weak var checkMark: UIButton?
     
     var mainImage: UIImage? {

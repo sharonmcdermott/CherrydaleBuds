@@ -333,7 +333,9 @@
                         <outlet property="closeButton" destination="wC5-uZ-NZR" id="QXd-RH-fC6"/>
                         <outlet property="hintLabel" destination="vvz-iA-30b" id="7J7-oy-TYW"/>
                         <outlet property="infoButton" destination="0o2-01-tDs" id="93E-gW-Ji3"/>
+                        <outlet property="subtitleLabel" destination="Os9-1B-pJk" id="RUC-Li-zmr"/>
                         <outlet property="textBackgroundView" destination="kYd-Xi-sIb" id="7DM-lz-EZa"/>
+                        <outlet property="titleLabel" destination="9dG-kt-L4V" id="ihc-eG-i2R"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dLY-Po-3Ah" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -37,10 +37,13 @@ class CBInfoViewController: UIViewController {
     
     @IBOutlet weak var textBackgroundView: UIView!
     
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    
     @IBOutlet weak var hintLabel: UILabel!
     
-    
-    
+    @IBOutlet weak var subtitleLabel: UILabel!
+  
     
     
     var cell : CBTableViewCell? {
@@ -51,17 +54,6 @@ class CBInfoViewController: UIViewController {
         }
         
     }
-    
-    
-
-
-    @IBOutlet weak var closeButton: UIButton!
-    
-    @IBOutlet weak var titleLabel: UILabel!
-    
-
-    
-    @IBOutlet weak var subtitleLabel: UILabel!
 
     
     
