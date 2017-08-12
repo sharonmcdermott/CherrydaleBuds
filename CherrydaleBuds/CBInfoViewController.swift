@@ -11,6 +11,38 @@ import UIKit
 
 class CBInfoViewController: UIViewController {
     
+    
+    @IBOutlet weak var infoButton: UIButton!
+    
+    @IBAction func infoButton(_ sender: UIButton) {
+        infoButton.isHidden = true
+        textBackgroundView.isHidden = false
+        closeButton.isHidden = false
+        titleLabel.isHidden = false
+        hintLabel.isHidden = false
+        subtitleLabel.isHidden = false
+    }
+  
+    
+    @IBOutlet weak var closeButton: UIButton!
+    
+    @IBAction func closeButton(_ sender: UIButton) {
+        infoButton.isHidden = false
+        textBackgroundView.isHidden = true
+        closeButton.isHidden = true
+        titleLabel.isHidden = true
+        hintLabel.isHidden = true
+        subtitleLabel.isHidden = true
+    }
+    
+    @IBOutlet weak var textBackgroundView: UIView!
+    
+    @IBOutlet weak var hintLabel: UILabel!
+    
+    
+    
+    
+    
     var cell : CBTableViewCell? {
         didSet {
             //cbCell.mainImage
@@ -21,37 +53,16 @@ class CBInfoViewController: UIViewController {
     }
     
     
-    @IBOutlet weak var infoButton: UIButton!
+
 
     @IBOutlet weak var closeButton: UIButton!
     
-    @IBOutlet weak var textBackgroundView: UIView!
-    
     @IBOutlet weak var titleLabel: UILabel!
     
-    @IBOutlet weak var hintLabel: UILabel!
+
     
     @IBOutlet weak var subtitleLabel: UILabel!
 
-    
-    @IBAction func infoButtonPressed(_ sender: UIButton) {
-        infoButton.isHidden = true
-        textBackgroundView.isHidden = false
-        closeButton.isHidden = false
-        titleLabel.isHidden = false
-        hintLabel.isHidden = false
-        subtitleLabel.isHidden = false
-    }
-    
-    @IBAction func closeButtonPressed(_ sender: Any) {
-        infoButton.isHidden = false
-        textBackgroundView.isHidden = true
-        closeButton.isHidden = true
-        titleLabel.isHidden = true
-        hintLabel.isHidden = true
-        subtitleLabel.isHidden = true
-    }
-    
     
     
     override func viewDidLoad() {

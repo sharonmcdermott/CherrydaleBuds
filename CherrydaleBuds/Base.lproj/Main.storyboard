@@ -284,7 +284,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="closeButtonPressed:" destination="Xjg-Kv-HRt" eventType="touchUpInside" id="Rwl-CJ-9bl"/>
+                                            <action selector="closeButton:" destination="Xjg-Kv-HRt" eventType="touchUpInside" id="PLN-wl-2aa"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -311,7 +311,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="infoButtonPressed:" destination="Xjg-Kv-HRt" eventType="touchUpInside" id="PdO-3n-yQl"/>
+                                    <action selector="infoButton:" destination="Xjg-Kv-HRt" eventType="touchUpInside" id="Rwc-wy-hc9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -330,12 +330,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="closeButton" destination="wC5-uZ-NZR" id="cNG-ig-3hj"/>
-                        <outlet property="hintLabel" destination="vvz-iA-30b" id="b6u-oS-uR1"/>
-                        <outlet property="infoButton" destination="0o2-01-tDs" id="H3L-Xb-d2u"/>
-                        <outlet property="subtitleLabel" destination="Os9-1B-pJk" id="241-1Q-4AU"/>
-                        <outlet property="textBackgroundView" destination="kYd-Xi-sIb" id="Xqj-Hl-Sld"/>
-                        <outlet property="titleLabel" destination="9dG-kt-L4V" id="mRi-Tw-kxl"/>
+                        <outlet property="closeButton" destination="wC5-uZ-NZR" id="QXd-RH-fC6"/>
+                        <outlet property="hintLabel" destination="vvz-iA-30b" id="7J7-oy-TYW"/>
+                        <outlet property="infoButton" destination="0o2-01-tDs" id="93E-gW-Ji3"/>
+                        <outlet property="textBackgroundView" destination="kYd-Xi-sIb" id="7DM-lz-EZa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dLY-Po-3Ah" userLabel="First Responder" sceneMemberID="firstResponder"/>
