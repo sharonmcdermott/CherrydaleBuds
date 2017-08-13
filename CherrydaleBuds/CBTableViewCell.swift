@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+
 class CBTableViewCell: UITableViewCell {
     
     @IBOutlet fileprivate weak var mainImageView: UIImageView?

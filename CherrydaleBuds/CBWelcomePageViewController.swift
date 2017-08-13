@@ -1,5 +1,5 @@
 //
-//  CBWelcomePageViewCellViewController.swift
+//  CBWelcomePageViewController.swift
 //  CherrydaleBuds
 //
 //  Created by sharon mcdermott on 7/28/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CBWelcomePageViewCellViewController: UIViewController {
+class CBWelcomePageViewController: UIViewController {
   
     
     @IBAction func goToTableView(_ sender: UIButton) {
@@ -25,12 +25,19 @@ class CBWelcomePageViewCellViewController: UIViewController {
 
  */
     
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
 
 
         // Do any additional setup after loading the view.
+    }
+    
+    override var prefersStatusBarHidden : Bool {
+        return true
     }
 
     override func didReceiveMemoryWarning() {

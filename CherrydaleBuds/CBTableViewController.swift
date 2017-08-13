@@ -8,6 +8,14 @@
 
 import UIKit
 
+
+// Def: Global variables are defined outside of any function, method, closure, or type context.
+
+// Def: Local variables are defined within a function, method, or closure context.
+
+
+
+
 var checkedFlowers = [String : NSObject]()
 
 class CBTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
