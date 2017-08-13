@@ -25,12 +25,13 @@ class CBWelcomePageViewController: UIViewController {
 
  */
     
-
+// Mark: made navigation bar transparent and rmoved the shadow image below the nav bar.
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController?.navigationBar.shadowImage = UIImage()
 
 
         // Do any additional setup after loading the view.
