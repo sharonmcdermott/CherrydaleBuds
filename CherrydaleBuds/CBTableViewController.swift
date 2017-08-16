@@ -20,6 +20,8 @@ var checkedFlowers = [String : NSObject]()
 
 class CBTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    
+    
     @IBOutlet fileprivate var tableView: UITableView?
     
     fileprivate let namesFlower = ["Sweet Cicely 1", "Echinacea (Cone Flower) 2", "Tea Rose 3", "Peony (pink) 4", "Fennel  5", "Heliopsis Helianthroids (False Sunflower) 6", "Day Lilly 7", "Tea Rose 8", "Echinops (Globe Thistle) 9", "Oak Leaf Hydrangea 10", "Day Lilly 11", "Bee Balm 12", "Tea Rose 13", "Globe Thisle 14", "Fennel 15", "Knockout Rose 16", "Knockout Rose 17", "Rose of Sharon (Hibiscus) 19", "Cleome, Spider Flower 20", "Poppy 21", "Lambs Ears 22", "Hardy Hibiscus 23", "Crape Myrtle 24", "Gooseneck Loosestrife 25", "Sweet Pea 26", "Bee Balm 27", "Gloriola Daisy Rudbeckia-hirta 28", "Wysteria Vine 32", "Clematis 33", "Russian Sage 35", "Sedum Autumn Joy 36", "New Ginea Impatient 37", "Ceratostigma Plumbeginoides (Plumbago) 38", "Marigold 39", "Petunia 40"]
@@ -41,6 +43,8 @@ class CBTableViewController: UIViewController, UITableViewDataSource, UITableVie
         cbCell.mainImage = UIImage(named: imagesFlower[indexPath.row])
         cbCell.title = namesFlower[indexPath.row]
         cbCell.subtitle = hintsFlower[indexPath.row]
+
+        
         
         if let _ = checkedFlowers[namesFlower[indexPath.row]] {
             cbCell.checked = true
@@ -51,6 +55,27 @@ class CBTableViewController: UIViewController, UITableViewDataSource, UITableVie
         return cbCell
         
     }
+    
+ /*
+    
+    func configureTextForCell(_ cell: UITableViewCell, withChecklistItem item: defaultCell) {
+        let label = cell.viewWithTag(1000) as! UILabel
+        label.text = item.text
+    }
+    
+    func configureCheckmarkForCell(_ cell: UITableViewCell,
+                                   withChecklistItem item: defaultCell) {
+        let label = cell.viewWithTag(1001) as! UILabel
+        
+        
+        if item.checked {
+            label.text = "✔︎"
+        } else {
+            label.text = ""
+            
+        }
+    }
+*/
     
     override func viewDidLoad() {
         
@@ -66,8 +91,13 @@ class CBTableViewController: UIViewController, UITableViewDataSource, UITableVie
         
         // Dispose of any resources that can be recreated.
     }
-    
 
+
+    
+    
+    
+    
+    
     
     // MARK: - Navigation
 
@@ -81,7 +111,7 @@ class CBTableViewController: UIViewController, UITableViewDataSource, UITableVie
             
             // If sender is nil or not a CBTableViewCell just stop so we don't crash
             guard let cell = sender as? CBTableViewCell else { return }
-            guard let viewController = segue.destination as? CBViewController else { return }
+            guard let viewController = segue.destination as? CBInfoViewController else { return }
             
             viewController.cell = cell
             

@@ -12,9 +12,18 @@ import UIKit
 
 class CBTableViewCell: UITableViewCell {
     
+    
+    
+    
     @IBOutlet fileprivate weak var mainImageView: UIImageView?
     @IBOutlet fileprivate weak var titleLabel: UILabel?
     @IBOutlet fileprivate weak var subtitleLabel: UILabel!
+
+    
+
+
+    
+    
     
 
     // @IBOutlet fileprivate weak var checkMark: UIButton?
@@ -44,6 +53,9 @@ class CBTableViewCell: UITableViewCell {
         }
     }
     var checked: Bool? = false
+    
+
+    
 
 
     override func awakeFromNib() {
