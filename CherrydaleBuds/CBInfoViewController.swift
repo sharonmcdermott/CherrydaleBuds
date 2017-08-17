@@ -68,14 +68,11 @@ class CBInfoViewController: UIViewController {
     
  // Working on getting image from the table cells to show up in the CBInfoViewController
 
-    @IBOutlet fileprivate var infoImageView: UIImageView! {
+    fileprivate var infoImageView: UIImageView? {
         var flowerImage: UIImage? {
-            cell?.mainImage = flowerImage
-            
+            didSet { infoImageView?.image = flowerImage }
         }
-        
-        return cell!.mainImage
-        
+        return self.infoImageView        
     }
 
     
