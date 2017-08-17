@@ -16,7 +16,7 @@ import UIKit
 
 class CBInfoViewController: UIViewController {
     
-    
+
     @IBOutlet weak var infoButton: UIButton!
 
     // Mark: When the info button is pressed, the information about the flower becomes visible.
@@ -66,6 +66,19 @@ class CBInfoViewController: UIViewController {
         return true
     }
     
+ // Working on getting image from the table cells to show up in the CBInfoViewController
+
+    @IBOutlet fileprivate var infoImageView: UIImageView! {
+        var flowerImage: UIImage? {
+            cell?.mainImage = flowerImage
+            
+        }
+        
+        return cell!.mainImage
+        
+    }
+
+    
     // Mark: made navigation bar transparent and rmoved the shadow image below the nav bar.
     
     override func viewDidLoad() {
@@ -92,6 +105,6 @@ class CBInfoViewController: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
 
+ }*/
 }

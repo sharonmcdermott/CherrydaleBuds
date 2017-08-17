@@ -56,6 +56,11 @@ class CBTableViewController: UIViewController, UITableViewDataSource, UITableVie
         
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(namesFlower)
+    }
+    
+        
  /*
     
     func configureTextForCell(_ cell: UITableViewCell, withChecklistItem item: defaultCell) {
@@ -76,6 +81,9 @@ class CBTableViewController: UIViewController, UITableViewDataSource, UITableVie
         }
     }
 */
+
+   
+    
     
     override func viewDidLoad() {
         
@@ -88,16 +96,13 @@ class CBTableViewController: UIViewController, UITableViewDataSource, UITableVie
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         
+        self.tableView?.dataSource = self
+        self.tableView?.delegate = self
+        
         
         // Dispose of any resources that can be recreated.
     }
 
-
-    
-    
-    
-    
-    
     
     // MARK: - Navigation
 

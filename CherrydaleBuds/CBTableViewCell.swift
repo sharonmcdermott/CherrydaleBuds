@@ -22,9 +22,6 @@ class CBTableViewCell: UITableViewCell {
     
 
 
-    
-    
-    
 
     // @IBOutlet fileprivate weak var checkMark: UIButton?
     
