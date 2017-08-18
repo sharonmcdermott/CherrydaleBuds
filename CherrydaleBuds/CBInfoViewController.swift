@@ -68,15 +68,15 @@ class CBInfoViewController: UIViewController {
     
  // Working on getting image from the table cells to show up in the CBInfoViewController
 
-    fileprivate var infoImageView: UIImageView? {
+
+    @IBOutlet weak var infoImageView: UIImageView!
         var flowerImage: UIImage? {
             didSet { infoImageView?.image = flowerImage }
         }
-        return self.infoImageView        
-    }
-
     
-    // Mark: made navigation bar transparent and rmoved the shadow image below the nav bar.
+    
+    
+            // Mark: made navigation bar transparent and rmoved the shadow image below the nav bar.
     
     override func viewDidLoad() {
         super.viewDidLoad()
