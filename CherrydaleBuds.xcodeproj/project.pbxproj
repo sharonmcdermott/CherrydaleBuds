@@ -62,6 +62,10 @@
 		80149FFF1F499F3E005931BB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				8011FE101F2B04260018E807 /* CBWelcomePageViewController.swift */,
+				8051AEBE1F2809E50042D5FD /* CBInfoViewController.swift */,
+				808456D01F2A5AA500B4FCE3 /* CBTableViewCell.swift */,
+				8051AEBC1F27F7280042D5FD /* CBTableViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -98,10 +102,6 @@
 				80149FFE1F499F2D005931BB /* Delegates */,
 				80149FFF1F499F3E005931BB /* ViewControllers */,
 				8014A0001F499F5A005931BB /* Storyboards */,
-				8011FE101F2B04260018E807 /* CBWelcomePageViewController.swift */,
-				8051AEBE1F2809E50042D5FD /* CBInfoViewController.swift */,
-				808456D01F2A5AA500B4FCE3 /* CBTableViewCell.swift */,
-				8051AEBC1F27F7280042D5FD /* CBTableViewController.swift */,
 				80B8E5661F1A8479004717A1 /* Assets.xcassets */,
 				80B8E5681F1A8479004717A1 /* LaunchScreen.storyboard */,
 				80B8E5611F1A8479004717A1 /* CBViewController.swift */,
