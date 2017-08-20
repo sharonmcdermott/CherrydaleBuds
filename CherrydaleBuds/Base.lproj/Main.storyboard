@@ -318,7 +318,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button hidden="YES" opaque="NO" tag="1001" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48N-au-86q">
+                                                <button opaque="NO" tag="1001" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="48N-au-86q">
                                                     <rect key="frame" x="0.0" y="0.0" width="84" height="112"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="84" id="TnZ-lz-HbW"/>

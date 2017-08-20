@@ -13,10 +13,10 @@ import UIKit
 
 // Def: Local variables are defined within a function, method, or closure context.
 
+// Mark: This brings up the information when you press the info button
 
 class CBInfoViewController: UIViewController {
     
-
     @IBOutlet weak var infoButton: UIButton!
 
     // Mark: When the info button is pressed, the information about the flower becomes visible.
@@ -28,7 +28,8 @@ class CBInfoViewController: UIViewController {
         hintLabel.isHidden = false
         subtitleLabel.isHidden = false
     }
-  
+    
+    // Mark: This takes away the flower information when the close button is pressed.
     
     @IBOutlet weak var closeButton: UIButton!
     
@@ -43,7 +44,6 @@ class CBInfoViewController: UIViewController {
     }
     
     @IBOutlet weak var textBackgroundView: UIView!
-    
     
     @IBOutlet weak var titleLabel: UILabel!
     
